@@ -1,0 +1,114 @@
+<!-- SECCION SOBRE MI -->
+<section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+        <h2>SOBRE MÍ</h2>
+        <p><span>Hola, soy Gabriel Herrera</span>, un analista programador y programador backend con experiencia en el
+            desarrollo de aplicaciones robustas y eficientes. Me especializo en la creación de soluciones escalables
+            y de alto rendimiento, trabajando principalmente en el desarrollo de servidores, bases de datos y APIs. Mi
+            enfoque está en garantizar que el backend de las aplicaciones sea seguro, eficiente y fácil de mantener.
+            A lo largo de mi carrera, he trabajado con diversas tecnologías y lenguajes de programación para backend,
+            como Java, C#, Spring Boot, y otros. Me apasiona la optimización de procesos y la implementación de
+            soluciones
+            que mejoren el rendimiento del sistema, siempre buscando nuevas formas de mejorar y estar a la vanguardia en
+            tecnología.</p>
+        <a href="assets/cv/Curriculum-Programador-FullStack.pdf" target="_blank" class="btn-download">
+            <button type="button">
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </a>
+
+    </div>
+</section>
+
+<!-- SECCION SKILLS -->
+<section class="skills" id="skills">
+    <div class="contenido-seccion">
+        <h2>SKILLS</h2>
+        <!-- AGREGAR TECNOLOGIAS -->
+        <div class="projects">
+            <div *ngFor="let project of svgProjects" class="project-item">
+                <h3 class="titles">{{ project.name }}</h3>
+                <img [src]="project.svgPath" alt="{{ project.name }}" width="50" height="50">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECCION CURRICULUM -->
+<section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+            <div class="col izquierda">
+                <h3>Educación</h3>
+                <div class="item izq">
+                    <h4>Analista Programador</h4>
+                    <span class="casa">Universidad Nacional de Jujuy</span>
+                    <span class="fecha">2020 - 2025</span>
+                    <p>Analista programador formado en la Universidad Nacional de Jujuy. A lo largo de mi carrera, he
+                        adquirido experiencia en el análisis, diseño y desarrollo de sistemas, especializándome en
+                        backend y en la optimización de procesos tecnológicos. Mi enfoque es asegurar que las soluciones
+                        que desarrollo sean eficientes, escalables y fáciles de mantener.
+
+                        Además de mi formación en análisis y programación, tengo una sólida comprensión de la
+                        arquitectura de software, lo que me permite abordar proyectos complejos con una visión global.
+                        Estoy comprometido con la mejora continua, buscando siempre nuevas oportunidades para crecer
+                        profesionalmente y aplicar las mejores prácticas en cada proyecto en el que participo.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Operador Informatico</h4>
+                    <span class="casa">Instituto de Enseñanza de Lenguas e Informatica</span>
+                    <span class="fecha">2011 - 2014</span>
+                    <p> Operador informático formado en el Instituto de Enseñanza de Lenguas e Informática. A lo largo de
+                        mi trayectoria, he desarrollado habilidades clave en el manejo de sistemas informáticos, redes,
+                        y soporte técnico, lo que me ha permitido comprender profundamente el funcionamiento de las
+                        tecnologías de la información y la comunicación.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col derecha">
+                <h3>Experiencia de trabajo</h3>
+                <div class="item der">
+                    <h4>Front Developer</h4>
+                    <span class="casa">Nombre de Compañía</span>
+                    <span class="fecha">2005 - 2008</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora
+                        recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id
+                        repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Front Developer</h4>
+                    <span class="casa">Nombre de Compañía</span>
+                    <span class="fecha">2005 - 2008</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora
+                        recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id
+                        repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Front Developer</h4>
+                    <span class="casa">Nombre de Compañía</span>
+                    <span class="fecha">2005 - 2008</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora
+                        recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id
+                        repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
